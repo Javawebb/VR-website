@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    color: #FFFF;
+}
+body{
+    background: #090427;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.header-wrap{
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+ul{
+    display: flex;
+    gap: 70px;
+}
+.navbar-link{
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar-btn{
+    padding: 5px 10px;
+    border: 2px solid #FFFF;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-content{
+    display: flex;
+    margin-bottom: 120px;
+}
+.header-info{
+    width: 40%;
+    margin-top: 200px;
+}
+.header-info__title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.header-info__desc{
+    margin-bottom: 30px;
+}
+.header-title{
+    color: #9BA4ED;
+}
+.header-image{
+    width: 60%;
+    margin: 0 auto;
+}
+.active{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+    background: #57565631;
+    border-radius: 20px;
+    padding: 14px 50px;
+}
+.box{
+    background: #3e3c3c7c;
+    opacity: 0.7;
+    padding: 28px;
+    border-radius: 20px;
+}
+.img{
+margin-left: 40px;
+margin-bottom: 30px;
+}
+.images{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 90%;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.image-content{
+    width: 40%;
+}
+.man{
+    border-radius: 50%;
+}
+.third-content__info{
+    width: 60%;
+    padding: 133px;
+}
+.content-info__title{
+    font-size: 38px;
+    font-weight: 700;
+}
+.main-card{
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 120px;
+    background: #57565631;
+    border-radius: 40px;
+    padding: 50px 220px;
+}
+.main-card__title{
+    font-size: 44px;
+    font-weight: 700;
+}
+.main-card__desc{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 54px 0;
+}
+.card-btn{
+    margin-left: 180px;
+}
+.header-content__btn{
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
